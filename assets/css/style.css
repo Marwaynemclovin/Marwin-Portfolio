@@ -1,0 +1,155 @@
+:root{
+    --header-bg: #31343d;
+    --box-font-color: rgb(2, 48,71);
+    --main-font: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    --box-outline-bg: #0a40b4;
+    --sub-font-colour: #fff;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    font-family: var(--main-font);
+    box-sizing: border-box;
+}
+
+body{
+    display:block;
+
+}
+
+header{
+    display: flex;
+    background-color: var(--header-bg);
+    padding: 20px;
+}
+
+header h1{
+    text-align: left;
+    display: inline;
+    background-color: var(--box-outline-bg);
+    color: var(--box-font-color);
+    padding: 5px;
+    font-size: 35px;
+}
+
+ nav {
+display: block;
+}
+
+.navi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+}
+
+nav ul{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    background-color: var(--header-bg);
+    text-decoration-line: underline;
+}
+
+nav li{
+    padding: 15px;
+}
+
+figure{
+    max-height: 300px;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.banner > img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+section{
+    display: block;
+}
+
+article {
+    margin-top: 15px;
+    margin: 0 auto;
+    padding: 15px 60px;
+}
+
+main{
+    padding:0, 60px;
+}
+
+.aside-heading{
+    display: flex;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+p{
+    padding-left: 25px;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+#Portrait {
+    background-size: cover;
+    position: relative;
+    /* background-position: center center; */
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    padding-left: 40px;
+}
+
+.previous-work{
+    max-width: 400px;
+    flex: 1 1 300px;
+    list-style: none;
+    justify-content: space-evenly;
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+}
+
+#work-row{
+    display:flex;
+    justify-content: space-evenly;
+}
+/* .main-image-text{
+    position: absolute;
+    bottom: 45px;
+    left: 25%;
+    color: var(--header-bg);
+    background-color: var(--box-outline-bg);
+    padding: 10px 40px 10px 40px;
+    font-weight: bolder;
+    font-size: 25px;
+} */
+
+ul{
+    list-style: none;
+}
+
+h1{
+    display: block;
+}
+
+h2 {
+    text-align: right;
+    max-width: 150px;
+    padding-right: 10px;
+    border-right: 5px solid;
+    font-size: 40px;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+}
