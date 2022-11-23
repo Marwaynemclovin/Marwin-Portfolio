@@ -149,6 +149,11 @@ main{
     padding: 5px;
 }
 
+.image-text > h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .contact {
     display: block;
     color: var(--box-font-color);
