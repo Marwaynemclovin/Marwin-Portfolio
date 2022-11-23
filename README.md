@@ -7,6 +7,7 @@ The foundations of a developers work is demonstrated in their Portfolio. It show
 [Screenshot of Middle Deployed Screen](/assets/images/Deployed%20Screen%202.png)
 
 [Screenshot of Bottom Deployed Screen](/assets/images/Deployed%20Screen%203.png)
+
 ## Credits
 Credits to Eric A. Meyer for creation of the reset.css file!
 
