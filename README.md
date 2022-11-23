@@ -16,10 +16,10 @@ The foundations of a developers work is demonstrated in their Portfolio. It show
 
 Credits to Eric A. Meyer for creation of the reset.css file!
 
-Link to the code is below:
+Link to the code is:
 https://meyerweb.com/eric/tools/css/reset/
 
-Link to Eric A. Meyer's Webiste is below:
+Link to Eric A. Meyer's Webiste is:
 https://meyerweb.com/
 
 ## Link to Deployed Application
