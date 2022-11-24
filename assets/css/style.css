@@ -104,7 +104,7 @@ figure{
     background-color: var(--box-outline-bg);
     color: var(--box-font-color);
     right: 10%;
-    top: 38%;
+    top: 28%;
     font-size: 40px;
     padding: 5px;
 }
@@ -215,7 +215,7 @@ span {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 20px;
 }
 
