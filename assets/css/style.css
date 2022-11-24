@@ -217,6 +217,7 @@ span {
     width: 100%;
     justify-content: space-evenly;
     padding-left: 20px;
+    padding-top: 25px
 }
 
 .contact > ul > li {
